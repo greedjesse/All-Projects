@@ -1,4 +1,4 @@
-const username = '2KAbhishek';
+const username = 'greedjesse';
 const maxPages = 3;
 const hideForks = true;
 const repoList = document.querySelector('.repo-list');
@@ -37,8 +37,8 @@ const displayProfile = (profile) => {
                 Gists: <strong>${profile.public_gists}</strong>
             </p>
             <p>
-                Work: ${profile.company}
-                Location: ${profile.location}
+                Work: "Privacy"
+                Location: "Taipei Taiwan"
             </p>
         </div>
     `;
