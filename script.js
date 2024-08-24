@@ -37,8 +37,8 @@ const displayProfile = (profile) => {
                 Gists: <strong>${profile.public_gists}</strong>
             </p>
             <p>
-                Email: "greed.jesse.business@gmail.com"
-                Location: "Taipei Taiwan"
+                Email: greed.jesse.business@gmail.com.
+                Location: Taipei Taiwan.
             </p>
         </div>
     `;
