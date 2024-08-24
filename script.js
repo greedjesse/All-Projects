@@ -29,7 +29,8 @@ const displayProfile = (profile) => {
             <img alt="user avatar" src=${profile.avatar_url} />
         </figure>
         <div>
-            <h2><a href=${profile.blog}><strong>${profile.name} - ${profile.login}</strong></a></h2>
+            // <h2><a href=${profile.blog}><strong>${profile.name} - ${profile.login}</strong></a></h2>
+            <h2><a href=${profile.blog}><strong>${profile.name}</strong></a></h2>
             <p>${profile.bio}</p>
             <p>
                 Followers: <strong>${profile.followers}</strong>
