@@ -89,7 +89,7 @@ const displayRepos = (repos) => {
             <br/><br/>`;
 
         if (repo.stargazers_count > 0) {
-            // listItem.innerHTML += `<a href="${starsUrl}">
+            listItem.innerHTML += `<a href="${starsUrl}">
             <span>⭐ ${repo.stargazers_count}</span></a>`;
         }
 
